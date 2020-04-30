@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<center>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Assignment 2 </title>
+
+<a href="https://www.gravityclub.com/">
+<img src="logo.png" alt="gravity logo" width="270" height="80">
+</a>
+
+
+<br>
+<br>
+
+<style>
+
+body {
+  background-image: url('marble.jpg'),url('wallpaper.jpg');
+  background-attachment: no-fixed,no-fixed;
+  background-size: 1450px 805px, 1450px 1100px;
+  background-repeat: no-repeat,no-repeat;
+  background-position: top,bottom;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  font-family: applegothic;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 14px;
+  text-decoration:none;
+  font-size: 15px;
+  width: 23%;
+}
+
+#navbar a:hover {
+  background-color: hsla(360, 90%, 55%, 0.4);
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+
+.sticky + .content {
+  padding-top: 150px;
+}
+
+.contact {
+  column-count: 3;
+  column-gap: -10px;
+  margin-left:265px;
+  margin-right:265px
+}
+
+</style>
+</head>
+<body>
+
+<img src="contact2.png" alt="contactlogo" width=20.5%>
+
+<h1 style="color:hsla(0, 0%, 0%, 0.7);font-size:500%;font-family:applegothic;">C O N T A C T</h1>
+<br>
+<br>
+
+<div id="navbar">
+  <a class="active" href="about.html">A B O U T</a>
+  <a href="facilities.html"> F A C I L I T I E S</a>
+  <a href="index.html">H O M E</a>
+  <a href="membership.html">M E M B E R S  H I P</a>
+</div>
+
+<br>
+<br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.59514099573!2d103.72511743669665!3d1.3143401682965858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190c2b3223ab%3A0xe0247f54e35be009!2sGravity!5e0!3m2!1sen!2ssg!4v1588237877333!5m2!1sen!2ssg" width="1420" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<br>
+<br>
+<br>
+
+<div class="contact">
+
+<h2 style="color:hsla(0, 0%, 100%, 0.95);font-size:90%;font-family:applegothic">
+ ADDRESS: </h2> 
+
+<p style="color:hsla(0, 0%, 100%, 0.8);line-height: 1.5;font-size:100%;font-family:applegothic" >
+138 Market St, Singapore 048946
+<br>
+Located in CapitaGreen, #38-01
+
+</p>
+
+<br>
+
+<h3 style="color:hsla(0, 0%, 100%, 0.95);font-size:90%;font-family:applegothic">
+ CONTACT NUMBER : </h3> 
+
+<p style="color:hsla(0, 0%, 100%, 0.8);line-height: 1.5;font-size:100%;font-family:applegothic" >
++65 6653 9988</p>
+<br>
+<br>
+<h4 style="color:hsla(0, 0%, 100%, 0.95);font-size:90%;font-family:applegothic">
+OPERATING HOURS : </h4> 
+
+<p style="color:hsla(0, 0%, 100%, 0.8);line-height: 1.5;font-size:100%;font-family:applegothic" >
+Monday-Friday: 6:00AM - 10:30PM
+<br>
+Saturday: 7:00AM - 9:00PM
+<br>
+Sunday & Public Holidays: CLOSED</p>
+
+</div>
+<br>
+
+<img src="gravity.jpg" alt="gravityicon" width=100%>
+
+<script>
+
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+
+</center>
+
+</body>
+</html>
+

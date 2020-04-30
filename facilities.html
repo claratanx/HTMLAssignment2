@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<center>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Assignment 2 </title>
+
+<a href="https://www.gravityclub.com/">
+<img src="logo.png" alt="gravity logo" width="270" height="80">
+</a>
+
+
+<br>
+<br>
+<br>
+
+<style>
+
+body {
+  background-image: url('marble.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  font-family: applegothic;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 14px;
+  text-decoration:none;
+  font-size: 15px;
+  width: 25%;
+}
+
+#navbar a:hover {
+  background-color: hsla(360, 90%, 55%, 0.4);
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+
+.sticky + .content {
+  padding-top: 150px;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3,.mySlides4,.mySlides5  {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 30px;
+  margin-top: -20px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: ;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<img src="facilities2.png" alt="facilitieslogo" width=30%>
+
+<h1 style="color:hsla(0, 0%, 0%, 0.7);font-size:500%;font-family:applegothic;">F A C I L I T I E S</h1>
+
+<br>
+<br>
+
+<div id="navbar">
+  <a class="active" href="about.html">A B O U T</a>
+  <a href="index.html">H O M E</a>
+  <a href="contact.html">C O N T A C T</a>
+  <a href="membership.html">M E M B E R S H I P</a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<h2 style="color:hsla(0, 0%, 20%, 0.95);font-size:300%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+FACILITIES IN GRAVITY:
+</h2>
+</center>
+
+<br>
+
+<div class="slideshow-container">
+<center>
+  <div class="mySlides1">
+    <img src="indoor.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides1">
+    <img src="indoor2.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides1">
+    <img src="indoor3.jpg" style="width:1000px;height:500px">
+  </div>
+  </center>
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<center>
+<h3 style="color:hsla(0, 0%, 30%, 0.8);font-size:200%;font-family:applegothic;margin-left:200px;margin-right:200px">
+THE INDOOR GYM: </h3> 
+
+<ul style="list-style-type:circle;color:hsla(0, 0%, 10%, 0.6);font-size:130%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+    <li>Cutting edge cardio and strength equipment, including specially designed training frame</li>
+<br>
+    <li>Functional & Freestyle Training Zone</li>
+<br>
+    <li>Boxing area</li>
+<br>
+    <li>The Cycling Studio</li>
+<br>
+    <li>Spectacular views of Marina Bay and the CBD</li>
+<br>
+    <li>Touchscreen interactive TV with workout videos</li>
+</ul>
+<img src="dumbbellicon.png" style="width:10%">
+</center>
+<br>
+<br>
+
+<div class="slideshow-container">
+<center>
+  <div class="mySlides2">
+    <img src="outdoor.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides2">
+    <img src="outdoor2.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides2">
+    <img src="outdoor3.jpg" style="width:1000px;height:500px">
+  </div>
+</center>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<center>
+<h4 style="color:hsla(0, 0%, 30%, 0.8);font-size:200%;font-family:applegothic;margin-left:200px;margin-right:200px">
+THE OUTDOOR AREA: </h4> 
+
+<ul style="list-style-type:circle;color:hsla(0, 0%, 10%, 0.6);font-size:130%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+    <li>25m temperature controlled swimming pool and adjacent Jacuzzi with stunning views of Marina Bay</li>
+<br>
+    <li>Swim training equipment</li>
+<br>
+    <li>Cardio equipment such as spin bikes, ski erg and aqua rowing</li>
+</ul>
+<img src="swim.png" style="width:11%"></center>
+<br>
+<br>
+
+<div class="slideshow-container">
+<center>
+  <div class="mySlides3">
+    <img src="lounge.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides3">
+    <img src="lounge2.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides3">
+    <img src="lounge3.jpg" style="width:1000px;height:500px">
+  </div>
+</center>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+
+<center>
+<h5 style="color:hsla(0, 0%, 30%, 0.8);font-size:200%;font-family:applegothic;margin-left:200px;margin-right:200px">
+THE LOUNGE: </h5> 
+
+<ul style="list-style-type:circle;color:hsla(0, 0%, 10%, 0.6);font-size:130%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+    <li>Beautifully designed lounge with refreshment counter offering a selection of complimentary gourmet coffee and tea</li>
+<br>
+    <li>Slow pressed juices and health smoothies menu</li>
+<br>
+    <li>Power and USB charging points at seating areas</li>
+<br>
+    <li>Complimentary WiFi with iPads</li>
+</ul>
+<br>
+<img src="lounge.png" style="width:8%"></center>
+<br>
+<br>
+<br>
+
+<div class="slideshow-container">
+<center>
+  <div class="mySlides4">
+    <img src="room.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides4">
+    <img src="room2.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides4">
+    <img src="room3.jpg" style="width:1000px;height:500px">
+  </div>
+</center>
+
+  <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+</div>
+
+<center>
+<h6 style="color:hsla(0, 0%, 30%, 0.8);font-size:200%;font-family:applegothic;margin-left:200px;margin-right:200px">
+THE CHANGING ROOM: </h6> 
+
+<ul style="list-style-type:circle;color:hsla(0, 0%, 10%, 0.6);font-size:130%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+    <li>Mounted and rain showers</li>
+<br>
+    <li>Aromatherapy steam room</li>
+<br>
+    <li>Private label Ayurvedic toiletries</li>
+<br>
+    <li>In-club workout kit</li>
+<br>
+    <li>Lockers with USB points</li>
+<br>
+    <li>Complimentary steam ironing service</li>
+</ul>
+<br>
+<img src="shower.png" style="width:8%"> </center>
+<br>
+<br>
+<br>
+
+<div class="slideshow-container">
+<center>
+  <div class="mySlides5">
+    <img src="other.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides5">
+    <img src="other2.jpg" style="width:1000px;height:500px">
+  </div>
+
+  <div class="mySlides5">
+    <img src="other3.jpg" style="width:1000px;height:500px">
+  </div>
+</center>
+
+  <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+</div>
+
+<br>
+<br>
+
+<center>
+<h7 style="color:hsla(0, 0%, 30%, 0.8);font-size:200%;font-family:applegothic;margin-left:200px;margin-right:200px">
+OTHER FACILITIES: </h7> 
+
+<br>
+<br>
+
+<ul style="list-style-type:circle;color:hsla(0, 0%, 10%, 0.6);font-size:130%;font-family:applegothic;margin-left:200px;margin-right:200px" >
+    <li><strong>Meeting room</strong> with audio and video conference facilities with smart glass panels</li>
+<br>
+    <li>Private <strong>workstations</strong></li>
+<br>
+    <li>Private <strong><em>HealthFACTR</em> consultation room</strong> for medical and wellness screening</li>
+</ul>
+<br>
+<img src="facilitiesicon.png" style="width:7%">
+<br>
+<br>
+<br>
+<br>
+
+<img src="gravity2.jpg" alt="gravityicon" width=100%>
+
+</center>
+<script>
+
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+var slideIndex = [1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+
+</script>
+
+
+</body>
+</html>
+
